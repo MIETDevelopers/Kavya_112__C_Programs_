@@ -1,4 +1,4 @@
-#include<stdio.h>  // Pre-Processive to include standard input and output funtions header file   
+#include<stdio.h>  //Preprocessor directive to include standard input output header file 
 int main(){  
 int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;      // Variable Declaration 
 printf("enter the number of row=");     // Taking input as row
