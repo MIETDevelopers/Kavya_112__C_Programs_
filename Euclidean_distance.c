@@ -1,7 +1,8 @@
 #include <stdio.h> // Preprocessor to include the standard input and output funtions
 #include <math.h> // Preprocessor to include the Mathematics Funtions
 
-int main() {
+int main() // Start of body  
+{
 	float a, b, c, d, distance,E_distance; // variable declarztion 
 	printf("Input A: "); // taking Value of A
 	scanf("%f", &a);
@@ -14,6 +15,6 @@ int main() {
 	distance = ((c-a)*(c-a))+((d-b)*(d-b));// logic 
 	E_distance=sqrt(distance);// applying Sqrt 
 	printf("Distance between the said points: %f",E_distance); // printing output
-	printf("\n");
-	return 0;
-}
+	printf("\n"); // Printing all New statment 
+	return 0; 
+} // End of body 
