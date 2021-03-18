@@ -7,7 +7,7 @@ int main()
     ON = num; // logic 
 
     while (ON != 0) // loop started 
-	{// loop body 
+	{          // loop body 
        // remainder contains the last digit
         re = ON % 10;
         
