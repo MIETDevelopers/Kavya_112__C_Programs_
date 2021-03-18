@@ -23,4 +23,4 @@ int main()
         printf("%d is not an Armstrong number.", num); // Print  this Statement if false 
 
     return 0;
-} // End od body 
+} // End of body 
