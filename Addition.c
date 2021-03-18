@@ -4,7 +4,7 @@ int main() {
     int num1, num2, sum;
     
     printf("Enter two integers: "); // taking input 
-    scanf("%d %d", &num1, &num2); // 
+    scanf("%d %d", &num1, &num2); // Scaning output
 
     // calculating sum
     sum = num1 + num2;      
