@@ -26,13 +26,13 @@ int main() // Start of Main body
             result=num1-num2;   // LOGIC 
             break;   // Break statment 
          
-        case '*':
-            result=num1*num2;
-            break;
+        case '*': //  3rd CASE 
+            result=num1*num2; // LOGIC
+            break; 
              
-        case '/':
-            result=(float)num1/(float)num2;
-            break;
+        case '/': // CASE 4th 
+            result=(float)num1/(float)num2;// Logic
+            break; 
              
         case '%':
             result=num1%num2;
