@@ -7,7 +7,7 @@ int main()
     ON = num; // logic 
 
     while (ON != 0) // loop started 
-	{// loop body 
+	{          // loop body 
        // remainder contains the last digit
         re = ON % 10;
         
@@ -20,7 +20,7 @@ int main()
     if (result == num)
         printf("%d is an Armstrong number.", num); // Print  this Statement if true
     else
-        printf("%d is not an Armstrong number.", num); // Print  this Statement if false 
+        printf("%d is not an Armstrong number.", num); // Print this Statement if false 
 
     return 0;
-} // End od body 
+} // End of body 

@@ -1,5 +1,6 @@
-#include <stdio.h> // 
-int main(){
+#include <stdio.h> // Pre-Processive to include standard input and output header file funtions 
+int main() // Start of body 
+{
     float side, area_Square, area_Circle,radius,length,breadth,area_Rectangle,perimeter_Rectangle,circumfernce,perimeter_Square;
     printf("Enter  of side of square\n");// Read the statment
     scanf("%f", &side);// output statment
@@ -17,13 +18,14 @@ int main(){
    area_Rectangle = length * breadth;// logic (formula)
    
    perimeter_Rectangle=2*(length+breadth); // logic (formula)
-   printf("Area of square : %f\n", area_Square);
-   printf("perimeter of Square :%f\n",perimeter_Square);
-	printf("\n Area of Circle : %f", area_Circle);
-	printf("\nCircumferene of circle is : %f",circumfernce);
-	 printf("\nArea of Rectangle : %f", area_Rectangle);
-   printf("\nPerimeter of Rectangle : %f", perimeter_Rectangle);
+   printf("Area of square : %f\n", area_Square); // Printing Statement
+   printf("perimeter of Square :%f\n",perimeter_Square);// Printing Statement
+	printf("\n Area of Circle : %f", area_Circle);// Printing Statement
+	printf("\nCircumferene of circle is : %f",circumfernce);// Printing Statement
+	 printf("\nArea of Rectangle : %f", area_Rectangle);// Printing Statement
+   printf("\nPerimeter of Rectangle : %f", perimeter_Rectangle);// Printing Statement
 
 	return 0;
+	// End of Body 
 }
 

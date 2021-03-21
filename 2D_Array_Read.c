@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <stdio.h> // Pre-Processive to include standard input and output funtion header files
  
-int main()
+int main() // Start of body 
 {
   // array declaration and initialization
   int my_array[5][3] = {
@@ -20,4 +20,4 @@ int main()
       }
    }
    return 0;
-}
+}      // end of body
