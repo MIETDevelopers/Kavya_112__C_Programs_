@@ -1,5 +1,5 @@
-#include <stdio.h>
-int main()
+#include <stdio.h> // Pre-Processive to include Standard input and out header files funtions
+int main() // Start of Main body 
 {
 	int a[2][3],b[2][3],c[2][3],i,j; // Declaring Variables 
 	printf("\nENTER VALUES FOR MATRIX A:\n"); // taking Matrix A elemnts
@@ -20,5 +20,6 @@ int main()
 			printf("%5d",c[i][j]); // Printing the matrix 
 		printf("\n");
 	}
-	return 0;
+	return 0; 
 }
+// End of Bpdy 
