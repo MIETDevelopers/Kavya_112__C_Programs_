@@ -1,6 +1,9 @@
+// Author : Kavya Dhar
+// Creation Date: 18-03-21
+// Purpose : Multiplication Of Matrix 2D
 #include<stdio.h>     
 int main(){  
-int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;     
+int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;  // Varible declration    
 printf("enter the number of row=");    
 scanf("%d",&r);    
 printf("enter the number of column=");    
@@ -43,4 +46,4 @@ printf("%d\t",mul[i][j]);
 printf("\n");    
 }    
 return 0;  
-}  
+}  // End of Body 
