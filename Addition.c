@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include <stdio.h> // Preprocessive to include standard input and output 
 int main() {    
 
-    int number1, number2, sum;
+    int num1, num2, sum;
     
-    printf("Enter two integers: ");
-    scanf("%d %d", &number1, &number2);
+    printf("Enter two integers: "); // taking input 
+    scanf("%d %d", &num1, &num2); // Scaning output
 
     // calculating sum
-    sum = number1 + number2;      
+    sum = num1 + num2;      
     
-    printf("%d + %d = %d", number1, number2, sum);
+    printf("%d + %d = %d", num1, num2, sum); // Priniting output
     return 0;
 }
