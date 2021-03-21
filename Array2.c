@@ -5,7 +5,7 @@ printf("enter the number of row=");     // Taking input as row
 scanf("%d",&r);    
 printf("enter the number of column=");    // Taking input as column 
 scanf("%d",&c);    
-printf("enter the first matrix element=\n");     // Taking 1st Matrxi elements
+printf("enter the first matrix element=\n");     // Taking 1st Matrix elements
 for(i=0;i<r;i++)    
 {    
 	for(j=0;j<c;j++)    
@@ -13,7 +13,7 @@ for(i=0;i<r;i++)
 		scanf("%d",&a[i][j]);    
 }    
 }    
-	printf("enter the second matrix element=\n");    // taking 2nd Matrxi elements
+	printf("enter the second matrix element=\n");    // taking 2nd Matrix elements
 	for(i=0;i<r;i++)    
 	{    
 			for(j=0;j<c;j++)    
@@ -21,7 +21,6 @@ for(i=0;i<r;i++)
 			scanf("%d",&b[i][j]);    
 }    
 }    
-    printf("multiply of the matrix=\n");     // 
 for(i=0;i<r;i++)    
 {    
 for(j=0;j<c;j++)    
@@ -38,6 +37,7 @@ for(i=0;i<r;i++)
 {    
 for(j=0;j<c;j++)    
 {    
+printf("multiply of the matrix=\n");    // Priniting MAtrix C as result
 printf("%d\t",mul[i][j]);    
 }    
 printf("\n");    
