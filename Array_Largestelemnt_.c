@@ -17,7 +17,7 @@ for (i = 1; i < 5; ++i)
     if (arr[0] < arr[i])
         arr[0] = arr[i];
 }
-printf("Largest element = %.2f", arr[0]); //  Output stament  
+printf("Largest element = %.2f", arr[0]); //  Output statment  
 
 return 0;
 } // End of Body 
