@@ -1,3 +1,6 @@
+//  Author Name : Kavya Dhar
+// Creation date: 18-03-21
+// Purpose:To Check whether the number is Armstrong or not  
 #include <stdio.h>  // Pre-Prossive to include standard input and out put header files funtions
 int main()
  {     // Start Of main body
