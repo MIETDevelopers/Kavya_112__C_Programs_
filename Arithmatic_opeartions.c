@@ -15,7 +15,7 @@ int main() // Start of Main body
     printf("Choose operation to perform (+,-,*,/,%): "); // Choose the opeartion 
     scanf(" %c",&var);
      
-    result=0; // Null value provoided 
+    result=0; // Null value provoided // 
     switch(var)     // Switch case 
     {
         case '+':       // 1st  CAse 
@@ -35,8 +35,8 @@ int main() // Start of Main body
             break; 
              
         case '%':
-            result=num1%num2;
-            break;
+            result=num1%num2; // Logic 
+            break; // Break Statement 
         default:   // Deafult CAse 
             printf("Invalid operation.\n");
     }
