@@ -1,3 +1,6 @@
+//  Author Name : Kavya Dhar
+// Creation date: 18-03-21
+// Purpose:WAP for Finding Euclidean Distance   
 #include <stdio.h> // Preprocessor to include the standard input and output funtions
 #include <math.h> // Preprocessor to include the Mathematics Funtions
 
