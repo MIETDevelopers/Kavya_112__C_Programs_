@@ -1,4 +1,7 @@
-#include<stdio.h> //  preprocessor to include standard input and output header files funtions
+// Author Name : Kavya Dhar
+// Creation date: 18-03-21
+// Purpose:To Print the Largest element in the array  
+#include<stdio.h> //  preprocessor to include standard inpu and output header files funtions
 int main() // Main Body 
 {
 int i; // Variable declaration
