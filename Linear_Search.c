@@ -1,16 +1,18 @@
-#include<stdio.h>
+//  Author Name : Kavya Dhar
+// Creation date: 18-03-21
+// Purpose: Linear Searching 
   
-int main()
+int main() // Start of MAIn body 
 {
-    int a[20],i,x,n;
-    printf("How many elements?");
+    int a[20],i,x,n; //  Variable Declration 
+    printf("How many elements?"); // Taking input 
     scanf("%d",&n);
      
-    printf("Enter array elements:n");
+    printf("Enter array elements:n"); // Taking input 
     for(i=0;i<n;++i)
         scanf("%d",&a[i]);
      
-    printf("nEnter element to search:");
+    printf("nEnter element to search:"); // asking user to enter element to search 
     scanf("%d",&x);
      
     for(i=0;i<n;++i)
@@ -18,9 +20,9 @@ int main()
             break;
      
     if(i<n)
-        printf("Element found at index %d",i);
+        printf("Element found at index %d",i); // If true Print the Output 
     else
-        printf("Element not found");
+        printf("Element not found"); // If False Print "Element not found"
   
     return 0;
-}
+} // End Of body 
