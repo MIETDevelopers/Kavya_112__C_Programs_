@@ -1,4 +1,6 @@
-/* WAP To Make Simple Calculator which performs certian Actions like +,-,*,/,% */
+// Author : Kavya Dhar
+// Creation date: 18-03-21
+// Purpose: WAP To Make Simple Calculator which performs certian Actions like +,-,*,/,% .
 #include <stdio.h> // Preprocessive to include standard input and output header funtions 
  
 int main() // Start of Main body 
