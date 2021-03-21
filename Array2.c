@@ -1,3 +1,6 @@
+/  Author Name : Kavya Dhar
+// Creation date: 21-03-21
+// Purpose: Multiplication of 2D array  
 #include<stdio.h>  //Preprocessor directive to include standard input output header file 
 int main(){  
 int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;      // Variable Declaration 
