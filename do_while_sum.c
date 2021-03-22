@@ -1,5 +1,4 @@
 // Program to add numbers until the user enters zero
-
 #include <stdio.h>
 int main()
 {
