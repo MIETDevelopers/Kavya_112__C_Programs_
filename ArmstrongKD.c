@@ -1,3 +1,6 @@
+// Author : Kavya Dhar
+// Purpose: Armstrong Number 
+// Creation Date: 22-03-21 
 #include <stdio.h>  // Pre-Prossive to include standard input and out put header files funtions
 int main()
  {     // Start Of mail body
