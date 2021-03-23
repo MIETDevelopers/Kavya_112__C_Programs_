@@ -1,3 +1,6 @@
+// Author: Kavya Dhar
+// Creation Date: 22-03-21
+// Purpose: pointer variable initialization with the address of another variable and then prints normal variable value and its address using pointer variable. 
 #include <stdio.h>
 
 int main()
