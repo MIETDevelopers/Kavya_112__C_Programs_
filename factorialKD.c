@@ -1,3 +1,6 @@
+// Author :Kavya Dhar
+// Creation Date: 20-3-21
+//  Purpose: To Calculate the factorial of given number
 #include <stdio.h>
 int main() {
     int n, i;
