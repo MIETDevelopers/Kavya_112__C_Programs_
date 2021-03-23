@@ -1,3 +1,6 @@
+// Author : Kavya Dhar
+// Creation Date : 23-03-21 
+//  Purpose: 1D and 2D arrays passed as arguments to a single function and the function implementation should simply print those arrays passed as arguments.
 #include <stdio.h>
 void displayNumbers(int num[2][2]);
 int main()
