@@ -1,3 +1,6 @@
+// Author: Kavya Dhar
+//Creation Date:22-03-21
+// Purpose:Program to do Linear Searching
 #include<stdio.h>
   
 int main()
