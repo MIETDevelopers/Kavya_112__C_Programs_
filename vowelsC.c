@@ -1,3 +1,6 @@
+// Author : Kavya Dhar
+// Creation Date:22-03-21
+// Purpose:To Check the alphabet is vowel or consonant
 #include <stdio.h>
 int main() {
     char c;
