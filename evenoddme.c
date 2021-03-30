@@ -1,3 +1,6 @@
+// Author:Kavya Dhar
+// Creation Date: 23-03-21
+// Purpose:Check whether the number is even or odd 
 #include <stdio.h>
 int main() {
     int num;
@@ -12,5 +15,3 @@ int main() {
     
     return 0;
 }
-
-
