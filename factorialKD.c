@@ -1,3 +1,6 @@
+// Author :Kavya dhar
+// Creation Date:22-03-21
+// Purpose: To print the Factorial of a given number from user
 #include <stdio.h>
 int main() {
     int n, i;
