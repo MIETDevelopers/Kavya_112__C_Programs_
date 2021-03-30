@@ -1,4 +1,6 @@
 // AUTHOR : KAVYA DHAR
+// Creation Date: 23-03-21
+// Purpose:Binary Searching
 #include <stdio.h>
 int main()
 {
