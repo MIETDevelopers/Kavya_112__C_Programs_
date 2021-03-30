@@ -1,5 +1,6 @@
 // AUTHOR : KAVYA DHAR
-
+// Creation Date:22-03-21
+// Purpose:Pointer function
 #include <stdio.h>  /* for printf */
 #include <string.h> /* for strchr */
 
