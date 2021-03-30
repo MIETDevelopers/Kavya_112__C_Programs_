@@ -1,3 +1,6 @@
+// Author: Kavya Dhar
+// Creation date: 22-03-21
+// Purpose: Check whether the given number is prime or not using while loop 
 #include <stdio.h>
 int main()
 {
