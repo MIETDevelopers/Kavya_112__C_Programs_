@@ -1,7 +1,6 @@
-
-
-
-// Dynamic Memory Allocation in C using malloc(), calloc(), free() and realloc()
+// Author: Kavya Dhar
+// Creation date:22-3-21 
+// Purpsoe: Dynamic Memory Allocation in C using malloc(), calloc(), free() and realloc()
 // C malloc() method
 #include <stdio.h> 
 #include <stdlib.h> 
@@ -46,7 +45,7 @@ int main()
 
 	return 0; 
 } 
---------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // C calloc() method
 #include <stdio.h> 
 #include <stdlib.h> 
@@ -91,7 +90,7 @@ int main()
 
 	return 0; 
 } 
--------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // C free() method
 #include <stdio.h> 
 #include <stdlib.h> 
@@ -139,5 +138,4 @@ int main()
 
 	return 0; 
 } 
----------------------------------------
-//
+
