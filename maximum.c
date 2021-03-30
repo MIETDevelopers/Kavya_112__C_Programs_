@@ -1,3 +1,6 @@
+// Author:Kavya Dhar
+// Creation Date:23-03-21
+// Purpose: to find maximum of number in array
 #include<stdio.h>
 int main()
 {
