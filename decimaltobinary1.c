@@ -1,3 +1,6 @@
+// Author : Kavya Dhar
+// Creation Date:23-03-21
+// Purpose:Convertion of Decimal tom binary
 #include<stdio.h>    
 #include<stdlib.h>  
 int main(){  
