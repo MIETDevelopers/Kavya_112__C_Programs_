@@ -1,4 +1,6 @@
-// AUTHOR : KAVYA DHAR
+// Author:Kavya Dhar
+// Creation Date: 23-03-21
+// Purpose:function implementation which takes structure as input
 
 #include <stdio.h>
 #include <string.h>
