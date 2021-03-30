@@ -1,7 +1,6 @@
 // Author:Kavya Dhar
-// Creation date:
-
-// C program for the above approach
+// Creation date:22-03-21
+// C program for the Read and write in comma separated file (CSV)
 #include <conio.h> // 
 #include <stdio.h>
 #include <string.h>
