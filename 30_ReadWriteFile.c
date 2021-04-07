@@ -18,7 +18,7 @@ struct s {
 	//Writing program.
 	fwrite(a,sizeof(a),1,fptr);
 	fclose(fptr);
-	fptr=fopen("C:\Users\DHAR\Kavya_112__C_Programs_\\ReadWritefile.txt","rb");
+	fptr=fopen("C:\\Users\\DHAR\\Kavya_112__C_Programs_\\ReadWritefile.txt","rb");
 	fread(b,sizeof(b),1,fptr);
 	printf("\n Entered details are:\n");
 	for (i=0;i<1;++i) {
