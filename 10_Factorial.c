@@ -1,6 +1,6 @@
 //A C Program to calculate Factorial of a number.               
-#include<stdio.h>  
-int main()    
+#include<stdio.h>  // Pre-Processive to include standard input and output header files
+int main()   // Start of main body  
 {    
  int i,fact=1,number;    
  printf("Enter a number: ");    
@@ -11,3 +11,4 @@ int main()
   printf("Factorial of %d is: %d",number,fact);    //This will give us output.
 return 0;  
 }
+/// End of body
