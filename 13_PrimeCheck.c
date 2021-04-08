@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <stdio.h>/  //Pre-Processive to include standard input and output header files funtions
 int main()
 {
-   int n, i, count = 0;
+   int n, i, count = 0;  // Variable Delrartation
  
-    printf("Enter the Number.\n");
+    printf("Enter the Number.\n"); 
     scanf("%d",&n);//This will scan (read) the number entered by user.
  
     for(i=2; i<=n/2; ++i)
