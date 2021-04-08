@@ -1,16 +1,49 @@
 //A C Program to check whether the alphabet is Vowel or Consonant.               
 //The letters A, E, I, O and U are called vowels & the remaining ones are calles consonants.
-#include <stdio.h>
-int main() {
-    char c;
-    int lowercase_vowel, uppercase_vowel;
-    printf("Enter an alphabet: \n");
-    scanf("%c", &c); //It will scan the alphabet entered by user.
-    lowercase_vowel = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
-    uppercase_vowel = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
-    if (lowercase_vowel || uppercase_vowel)
-        printf("%c is a vowel.", c);
-    else
-        printf("%c is a consonant.", c);
-    return 0;
+#include <stdio.h> // Pre-Processive to include standard input and output header files funtions
+#include<conio.h>  //   Pre-Processive to include console input and output header files funtions
+int main()
+ {
+    char v; // Variable Delrartation
+    printf("Enter an alphabet: ");
+    scanf("%c", &v);
+
+    // evaluates to 1 if variable c is a  vowel
+    switch(v)
+	
+{
+	case 'a':
+		printf("Yes its a vowel","\n",v);
+		break;
+	case 'e':
+		printf("Yes its a vowel","\n",v);
+		break;
+	case 'i':
+		printf("yes its a vowel","\n",v);
+		break;
+	case 'o':
+		printf("Yes its a vowel","\n",v);
+				break;
+	case 'u':
+		printf("Yes its a vowel","\n",v);				
+		 break;
+	case 'A':
+		printf("Yes its a vowel","\n",v);
+		break;
+	case 'E':
+		printf("Yes its a vowel","\n",v);
+		break;
+	case 'I':
+		printf("yes its a vowel","\n",v);
+		break;
+	case 'O':
+		printf("Yes its a vowel","\n",v);
+				break;
+	case 'U':
+		printf("Yes its a vowel","\n",v);				
+		 break;
+	default :
+		printf("Oops Its Constant","\n",v)	; 
+	}
 }
+	// End of Body 
