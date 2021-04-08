@@ -1,17 +1,14 @@
-// Author : Kavya Dhar
-// Creation Date : 18-03-21
-// Purpose : Addition of Two numbers
 #include <stdio.h> // Preprocessive to include standard input and output 
-int main() { // Main Body   
+int main() {    
 
-    int num1, num2, sum; // Declaring Variable
+    int num1, num2, sum;
     
     printf("Enter two integers: "); // taking input 
     scanf("%d %d", &num1, &num2); // Scaning output
 
     // calculating sum
-    sum = num1 + num2;    // Logic  
+    sum = num1 + num2;      
     
     printf("%d + %d = %d", num1, num2, sum); // Priniting output
     return 0;
-}     // End of Body
+}

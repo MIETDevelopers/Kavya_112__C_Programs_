@@ -1,6 +1,3 @@
-// Author: Kavya Dhar
-//  Creation Date: 23-03-21
-// Purpose:Array and Declaration and printing
 #include <stdio.h>
  
 int main()
@@ -24,4 +21,3 @@ int main()
    }
    return 0;
 }
-// end of body 

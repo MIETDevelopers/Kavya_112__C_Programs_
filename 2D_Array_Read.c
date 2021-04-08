@@ -1,6 +1,6 @@
-//Author:Kavya Dhar
-// Creation Date : 17-03-21
-// Purpose : To Print Array elements
+// Author:  Kavya Dhar
+
+
 #include <stdio.h> // Pre-Processive to include standard input and output funtion header files
  
 int main() // Start of body 
