@@ -1,10 +1,10 @@
 // Kavya Dhar
-#include <stdio.h>
-#include <conio.h>
+#include <stdio.h> // Pre-Processive to include standard input and output header files funtions
+#include <conio.h> // Pre-Processive to include console input and output header files funtions
 
 int main()
 {
-  int i,num,n,large=0;
+  int i,num,n,large=0; // Variable declaratation 
 
   //It will set the maximum number (Limit) of values to be entered by user based on their choice.
   printf("How many numbers: ");
@@ -25,4 +25,4 @@ int main()
   return 0;
 }
 
-
+// End of Program
