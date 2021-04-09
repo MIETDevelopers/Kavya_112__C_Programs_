@@ -2,35 +2,30 @@
 // Creation Date: 23-03-21
 // Purpose:function implementation which takes structure as input
 
-#include <stdio.h>
-#include <string.h>
-int main()
+#include <stdio.h>  //Pre-processor directive to include standard input and output functions header file
+struct student    // Struct Keyword
 {
-  struct student
-  {
-    int roll_no;
-    char name[30];
-    int phone_number;
-  };
-  struct student p1 = {1,"Brown",123443};
-  struct student p2, p3;
-  p2.roll_no = 2;
-  strcpy(p2.name,"Sam");
-  p2.phone_number = 1234567822;
-  p3.roll_no = 3;
-  strcpy(p3.name,"Addy");
-  p3.phone_number = 1234567844;
-  printf("First Student\n");
-  printf("roll_no : %d\n", p1.roll_no);
-  printf("name : %s\n", p1.name);
-  printf("phone_number : %d\n", p1.phone_number);
-  printf("Second Student\n");
-  printf("roll_no : %d\n", p2.roll_no);
-  printf("name : %s\n", p2.name);
-  printf("phone_number : %d\n", p2.phone_number);
-  printf("Third Student\n");
-  printf("roll_no : %d\n", p3.roll_no);
-  printf("name : %s\n", p3.name);
-  printf("phone_number : %d\n", p3.phone_number);
-  return 0;
+    char name[50];
+    int age;
+};
+//Function prototype
+struct student getInfo();
+int main(){  //Main function
+    struct student s;
+    s = getInfo();
+    //Printf function calling
+    printf("\nName: %s", s.name);   //For printing name
+    printf("\nAge: %d", s.age);  //For printing age
+    return 0;   //Return function
+    }
+struct student getInfo(){
+    struct student s1;
+
+    printf("Enter name: ");
+    scanf ("%[^\n]%*c", s1.name);  //For reading name
+
+    printf("\nEnter age: ");
+    scanf("%d", &s1.age);  //For reading age
+
+    return s1;  //Return function
 }
