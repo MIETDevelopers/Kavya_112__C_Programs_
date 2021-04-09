@@ -1,20 +1,20 @@
 // AUTHOR : KAVYA DHAR
 // Creation Date:22-03-21
 // Purpose:Pointer function
-#include <stdio.h>  /* for printf */
-#include <string.h> /* for strchr */
+#include <stdio.h>	//Preprocessor directive to include standard input output header file
+//Start of the main body function
 
-double cm_to_inches(double cm) {
-	return cm / 2.54;
+int* returnPointer();
+
+int main() {
+    int *ptr = returnPointer();
+    printf("%d",ptr);
+    return 0;   //return statement
 }
+int* returnPointer() {
+    int *pointer;  // Pointer Variable 
+    int number = 717;
 
-// "strchr" is part of the C string handling (i.e., no need for declaration)
-// See https://en.wikipedia.org/wiki/C_string_handling#Functions
-
-int main(void) {
-	double (*func1)(double) = cm_to_inches;
-	char * (*func2)(const char *, int) = strchr;
-	printf("%f %s", func1(15.0), func2("Wikipedia", 'p'));
-	/* prints "5.905512 pedia" */
-	return 0;
+    pointer = &number; //pointer = address of number variable.
+    return pointer; //this statement returns a pointer.
 }
