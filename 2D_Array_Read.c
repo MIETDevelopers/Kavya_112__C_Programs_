@@ -1,26 +1,23 @@
 // Author:  Kavya Dhar
+//Purpose: Array with 10 integer elements initialization and printing their value.
+//Date:26-03-21
+#include <stdio.h>	//Preprocessor directive to include standard input output header file
+//Start of the main body function
+int main() {
 
+    int numbers[10]; //declaration of an array.
 
-#include <stdio.h> // Pre-Processive to include standard input and output funtion header files
- 
-int main() // Start of body 
-{
-  // array declaration and initialization
-  int my_array[5][3] = {
-    {1, 2, 3},      //row 1
-    {4, 5, 6},      //row 2
-    {7, 8, 9},      //row 3
-    {10, 11, 12},   //row 4
-    {13, 14, 15}    //row 5
-  };
+    //for loop to insert values to the array.
+    for(int i=0;i<10;i++) {
+        printf("Enter element no. %d: ",i+1);
+        scanf("%d",&numbers[i]);
+    }
 
-  // accessing and printing the elements
-  for ( int i = 0; i < 5; i++ ) {   
-      // variable i traverses the rows
-      for ( int j = 0; j < 3; j++ ) {
-         // variable j traverses the columns
-         printf("my_array [%d][%d] = %d\n", i,j, my_array[i][j] );
-      }
-   }
-   return 0;
-}      // end of body
+    //for loop to print the entire array.
+    for(int i=0;i<10;i++) {
+        printf("\nElement no. %d is: %d",i+1,numbers[i]);
+    }
+
+	return 0;	//return statement
+}
+//End of the main body function 
