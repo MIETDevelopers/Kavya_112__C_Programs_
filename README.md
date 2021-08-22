@@ -1,4 +1,6 @@
 # Kavya_C_Programs
+![picture](https://github.com/MIETDevelopers/Kavya_112__C_Programs_/blob/DHAR/c.gif)
+
 Our heartiest welcome goes to you. Congratulations on being part of our growing and dynamic team here! We’re honored to have you with us!
 
 
